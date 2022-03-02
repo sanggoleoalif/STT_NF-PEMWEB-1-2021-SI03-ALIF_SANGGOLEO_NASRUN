@@ -1,0 +1,49 @@
+.divprofile {
+    display: flex;
+    margin-top: -10px;
+    width: 100%;
+    padding-right: 0%;
+    margin-left: -50px;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    border: 1px solid black;
+    
+}
+
+.kolom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.imgmobil {
+    width: 100%;
+    
+}
+
+.divbawah {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.ulbawah {
+    list-style-type: none; 
+    padding-inline: 0;
+}
+
+.ulbawah li {
+    align-items: center;
+    display: flex;
+    align-content: space-around;
+    
+}

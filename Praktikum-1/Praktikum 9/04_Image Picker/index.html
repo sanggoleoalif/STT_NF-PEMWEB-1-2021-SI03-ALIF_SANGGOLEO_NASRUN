@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+    <select name="hewan" id="hewan" onclick="imagePicker()" onmouseout="imageConfirmation()" style="margin-bottom: 20px;">
+        <option value="b">Bison</option>
+        <option value="g">Gorilla</option>
+        <option value="m">Monyet</option>
+        <option value="s">Sapi</option>
+        <option value="u">Unta</option>
+    </select>
+    <div>
+        <img src="#" alt="" width="500px" id="hasil">
+    </div>
+    <script>
+        const hs = document.getElementById("hasil")
+function imagePicker() {
+    if (hewan.value == "b") {
+        return hs.src = "img/bison.png"
+    } else if (hewan.value == "g") {
+        return hs.src = "img/gorilla.png"
+    } else if (hewan.value == "m") {
+        return hs.src = "img/monyet.png"
+    } else if (hewan.value == "s") {
+        return hs.src = "img/sapi.png"
+    } else {
+        return hs.src = "img/unta.png"
+    }
+}
+function imageConfirmation() {
+    alert(hs.src)
+}
+    </script>
+</body>
+</html>

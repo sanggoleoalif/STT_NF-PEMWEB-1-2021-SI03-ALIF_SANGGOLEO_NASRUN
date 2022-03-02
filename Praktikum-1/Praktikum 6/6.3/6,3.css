@@ -1,0 +1,49 @@
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    background-color: darksalmon; 
+}
+
+.div-h {
+    padding: 10px;
+}
+
+.div-h header {
+    background-color: turquoise; 
+    text-align: center; 
+}
+
+.div-c {
+    display: flex; 
+    padding: 0 10px 0;
+}
+
+.aside {
+    background-color: aqua; 
+    width: 30%; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-c article {
+    background-color: khaki; 
+    width: 70%; 
+    height: 300px; 
+    margin-left: 10px; 
+    display: flex; 
+    align-content: center;
+}
+.bmw {
+    flex-grow: 1; 
+    width: 30%; 
+    height: 30%; 
+    align-self: flex-end; 
+    background-color: lightgray; 
+    margin: 10px;
+}

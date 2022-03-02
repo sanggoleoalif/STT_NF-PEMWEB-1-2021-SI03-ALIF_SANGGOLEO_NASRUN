@@ -1,0 +1,25 @@
+<html> 
+<head> 
+<title>Konversi Dollar Rupiah</title> 
+</head>
+<body>
+
+<script language="javascript"> 
+function kurs() 
+{ let dollar = parseFloat(document.inputdata.duid.value);
+    if(isNaN(dollar)){ 
+dollar=0.0;} 
+let hasil = dollar*14650; 
+alert("Jadi, Rupiah nya senilai : Rp."+ hasil); } 
+</script>
+
+<form name="inputdata"> 
+<h4> 
+Jumlah Dollar = <input type="text" name="duid" /> 
+</h4> 
+<input type="button" value="Hitung Sekarang Kurs" onClick="kurs()" /> 
+<input type="reset" value="Reset" /> 
+</form> 
+
+</body>
+</html> 
